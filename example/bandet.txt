@@ -1,0 +1,4 @@
+1	Bandet	_	band..nn.1	band..nn	band..1|band..2|band..3|band..4|band..5|band..6
+2	spelar	_	spela..vb.2|spela..vb.1	spela..vb	spela..6|spela..1|spela..2|spela..3|spela..4|spela..5|spela..7|spela..8
+3	rock	_	rock..nn.2|rock..nn.1	rock..nn	rock..2|rock..1
+4	.	_	_	...mad	_
