@@ -1,11 +1,12 @@
 
 # WSD using Personalized PageRank (Agirre et al, 2009)
-UKB=bin/ukb_wsd
-DICT=/home/richard/workspace/saldo/saldo_dict_140403-NEW.txt
+EXEC=bin/ukb_wsd
+DICT=models/ukb/saldo_dict_140403-NEW.txt
 MODEL=models/ukb/saldo_prim_sec_140403-NEW.bin
+BATCH_SIZE=10
 
 java -jar bin/saldowsd.jar -format=tab \
  -appName=se.gu.spraakbanken.wsd.UKBWrapper \
- -exec=$UKB -dict=$DICT -model=$MODEL -batchSize=10
+ -exec=$EXEC -dict=$DICT -model=$MODEL -batchSize=$BATCH_SIZE
 
 rm -f /tmp/ukbwrapper*txt
